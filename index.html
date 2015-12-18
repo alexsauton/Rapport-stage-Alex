@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link type="text/css" rel="stylesheet" href="stylesheet.css">
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rapport de stage-Alexandre Sauton</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+  <link type="text/css" rel="stylesheet" href="stylesheet.css">
      <script src="js/app.js"></script>
     <script>var easter_egg = new Konami();
 easter_egg.load('http://grand-air.paysdelaloire.e-lyco.fr/')
 </script>
 
   </head>
-<body style="background-color: #2E2E2E">
+<body>
+ 
   <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
+    <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-nav" aria-expanded="false">
+          <span class="sr-only">Navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -28,9 +29,9 @@ easter_egg.load('http://grand-air.paysdelaloire.e-lyco.fr/')
         <a class="navbar-brand" href="#">Rapport de stage</a>
       </div>
 
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse" id="menu-nav">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Acceuil <span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="#">Acceuil</a></li>
           <li><a href="#edt">Emplois du temps</a></li>
           <li><a href="#inter">Interview</a></li>
           <li><a href="#fait">Fait au stage</a></li>
@@ -40,36 +41,40 @@ easter_egg.load('http://grand-air.paysdelaloire.e-lyco.fr/')
         </div>
       </div>
     </nav>
+
     <div class="container">
-     <div class="jumbotron" id="edt" style="background-color: white">
       <div class="row">
-      <h1 class="text-center">Emplois du temps</h1>
-        <div class="col-md-4">  
-          <h3>Horaires de fonctionnement de l'entreprise</h3>
-          <ul>
-            <li><h4>Lundi: 9h00-12h00/14h00-18h00</h4></li>
-            <li><h4>Mardi: 9h00-12h00/14h00-18h00</h4></li>
-            <li><h4>Mercredi: 9h00-12h00/14h00-18h00</h4></li>
-            <li><h4>Mercredi: 9h00-12h00/14h00-18h00</h4></li>
-            <li><h4>Jeudi: 9h00-12h00/14h00-18h00</h4></li>
-            <li><h4>Vendredi: 9h00-12h00/14h00-18h00</h4></li>
-          </ul>
-        </div>
-        <div class="col-md-4">    
-          <h3>Pas d'ouverture au public</h3>
-        </div>    
-        <div class="col-md-4">    
-          <h3>Horaires de ma présence dans l'entreprise</h3>
-          <ul>
-            <li><h4>Lundi: 9h00-12h00/14h00-17h30</h4></li>
-            <li><h4>Mardi: 9h00-12h00/14h00-17h30</h4></li>
-            <li><h4>Mercredi: 9h00-12h00/14h00-17h30</h4></li>
-            <li><h4>Jeudi: 9h00-12h00/14h00-17h30</h4></li>
-            <li><h4>Vendredi: 9h00-12h00/14h00-17h30</h4></li>
-          </ul>
+        <div class="jumbotron" id="edt" style="background-color: white">
+         <h1 class="text-center">Emplois du temps</h1>
+         <div class="row"> 
+          <div class="col-md-4">  
+            <h3>Horaires de fonctionnement de l'entreprise</h3>
+            <ul>
+              <li><h4>Lundi: 9h00-12h00/14h00-18h00</h4></li>
+              <li><h4>Mardi: 9h00-12h00/14h00-18h00</h4></li>
+              <li><h4>Mercredi: 9h00-12h00/14h00-18h00</h4></li>
+              <li><h4>Mercredi: 9h00-12h00/14h00-18h00</h4></li>
+              <li><h4>Jeudi: 9h00-12h00/14h00-18h00</h4></li>
+              <li><h4>Vendredi: 9h00-12h00/14h00-18h00</h4></li>
+            </ul>
+          </div>
+          <div class="col-md-4">    
+            <h3>Pas d'ouverture au public</h3>
+          </div>    
+          <div class="col-md-4">    
+            <h3>Horaires de ma présence dans l'entreprise</h3>
+            <ul>
+              <li><h4>Lundi: 9h00-12h00/14h00-17h30</h4></li>
+              <li><h4>Mardi: 9h00-12h00/14h00-17h30</h4></li>
+              <li><h4>Mercredi: 9h00-12h00/14h00-17h30</h4></li>
+              <li><h4>Jeudi: 9h00-12h00/14h00-17h30</h4></li>
+              <li><h4>Vendredi: 9h00-12h00/14h00-17h30</h4></li>
+            </ul>
+          </div>
         </div>
       </div> 
      </div>
+
      <div class="row">
       <div class="jumbotron" id="inter" style="background-color: white"> 
         <h1 class="text-center">Interview d'un membre de l'équipe</h1>
@@ -87,7 +92,7 @@ easter_egg.load('http://grand-air.paysdelaloire.e-lyco.fr/')
       </div> 
      </div>
      <div class="row">  
-      <div class="jumbotron" id="fait" style="background-color: white">
+      <div class="jumbotron" id="fait" style=" background-color: white">
         <h1 class="text-center">Ce que j'ai fait pendant le stage</h1>
         <h4>
           <ol>
@@ -103,6 +108,7 @@ easter_egg.load('http://grand-air.paysdelaloire.e-lyco.fr/')
      <div class="row">  
       <div class="jumbotron" id="doc" style="background-color: white">
           <h1 class="text-center">Documents d'entreprise</h1>
+          <div class="row"> 
             <div class="col-md-4">
               <img id="img_style" src="https://lh3.googleusercontent.com/-fUrHV6f168I/AAAAAAAAAAI/AAAAAAAAABM/P2fqIN6obvw/s120-c/photo.jpg"><h4>Logo de l'entreprise</h4>
 
@@ -116,17 +122,18 @@ easter_egg.load('http://grand-air.paysdelaloire.e-lyco.fr/')
           <h3>Rémi Lanoës:</h3><h4> Co-fondateur et mon maître de stage.</h4>
           <h3>Édouard Ouvrard:</h3><h4> Co-fondateur</h4>
           <h3>Steve Grosbois:</h3><h4> Directeur technique</h4>
-            </div>
-            <iframe id="img_style" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.910823102752!2d-0.5528943849241463!3d47.47216720524898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480878ea205b0abd%3A0x47a20a1638228b65!2sPlaymoweb!5e0!3m2!1sfr!2sfr!4v1450347622534" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+           <iframe id="img_style" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.910823102752!2d-0.5528943849241463!3d47.47216720524898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480878ea205b0abd%3A0x47a20a1638228b65!2sPlaymoweb!5e0!3m2!1sfr!2sfr!4v1450347622534" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+       </div>
       </div>
      </div>
-     <div class="row"> 
-      <div class="jumbotron" id="con" style="background-color: white">
-        <h1 class="text-center">Conclusion personnelle</h1>
-        <h4>Ce stage d'observation m'a permis de découvrir la vie dans une entreprise spécialisée dans l'informatique. Grâce à cela, j'ai pu me donné quelques impressions sur le métier de développeur. Il m'a aidé à mieux définir mon projet d'avenir car je ne savais pas trop ce que je voulais faire mais maintenant je sais.</h4>
-      </div>  
-     </div>
-    </div> 
+       <div class="row"> 
+        <div class="jumbotron" id="con" style="background-color: white">
+          <h1 class="text-center">Conclusion personnelle</h1>
+          <h4>Ce stage d'observation m'a permis de découvrir la vie dans une entreprise spécialisée dans l'informatique. Grâce à cela, j'ai pu me donné quelques impressions sur le métier de développeur. Il m'a aidé à mieux définir mon projet d'avenir car je ne savais pas trop ce que je voulais faire mais maintenant je sais.</h4>
+        </div>  
+       </div>
+  </div> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
