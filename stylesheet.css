@@ -1,0 +1,27 @@
+
+.pixels {
+	color: black;
+	font-size: 14px;
+}
+
+.jumbotron {
+	border: 5px solid black;
+}
+
+#img_style {
+	border: 2px solid black;
+	border-radius: 100px;
+}
+
+#img_style2 {
+	border: 2px solid black;
+}
+
+#img_style3 {
+	border-radius: 110px
+}
+
+#linkplaymoweb {
+	text-decoration: none;
+	color: #FFA200;
+}
